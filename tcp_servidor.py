@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = "Edson, Ismal, Marco Tulio"
+__author__ = "Edson, Ismael, Marco Tulio"
 
 import socket, sys
 from threading import Thread
@@ -8,7 +8,7 @@ import time
 
 HOST = '127.0.0.1'  # endereço IP
 PORT = 20000        # Porta utilizada pelo servidor
-BUFFER_SIZE = 1024  # tamanho do buffer para recepção dos dados
+BUFFER_SIZE = 1000000  # tamanho do buffer para recepção dos dados
 
 def enviar_arquivo(clientsocket,addr):
     try:

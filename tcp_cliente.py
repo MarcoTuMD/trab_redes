@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-__author__ = ""
+__author__ = "Edson, Ismael, Marco Tulio"
 
 import socket, sys
 
 
 HOST = '127.0.0.1'  # endereço IP
 PORT = 20000        # Porta utilizada pelo servidor
-BUFFER_SIZE = 10000000  # tamanho do buffer para recepção dos dados
+BUFFER_SIZE = 1000000  # tamanho do buffer para recepção dos dados
 
 def pegar_rota():
     rota = input("informe a rota do arquivo: ")
