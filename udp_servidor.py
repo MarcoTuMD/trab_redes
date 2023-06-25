@@ -26,8 +26,8 @@ def enviar_arquivo(data, addr, server_socket):
             for linha in linhas:
                 linha_encode = linha.encode()
                 server_socket.sendto(linha_encode, addr)
-                if cont_linhas % 100 == 0:
-                    time.sleep(0.001)
+                if cont_linhas % 10 == 0:
+                    time.sleep(0.01)
                 cont_linhas += 1
                 
                 
